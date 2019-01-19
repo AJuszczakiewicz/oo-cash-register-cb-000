@@ -20,6 +20,6 @@ class CashRegister
       self.total = self.total - (self.total * self.discount)/100
       "After the discount, the total comes to $#{self.total}."
     end
-    
+
   end
 end
